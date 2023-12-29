@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "gabytestmod:raw_bittergem"
+  },
+  "result": "gabytestmod:bittergem_ingot",
+  "experience": 0.9,
+  "cookingtime": 300
+}

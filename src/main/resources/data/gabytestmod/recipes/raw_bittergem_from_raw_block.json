@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gabytestmod:raw_bittergem_block"
+    }
+  ],
+  "result": {
+    "item": "gabytestmod:raw_bittergem",
+    "count": 9
+  }
+}
