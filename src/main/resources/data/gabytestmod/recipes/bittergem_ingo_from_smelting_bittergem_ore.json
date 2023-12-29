@@ -3,7 +3,7 @@
   "ingredient": {
     "item": "gabytestmod:bittergem_ore"
   },
-  "result": "gabytestmod:raw_bittergem",
+  "result": "gabytestmod:bittergem_ingot",
   "experience": 0.9,
   "cookingtime": 300
 }
