@@ -1,6 +1,7 @@
 package net.gaby.gabytestmod.item;
 
 import net.gaby.gabytestmod.TestMod;
+import net.gaby.gabytestmod.item.custom.DowsingRodItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -26,6 +27,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> BITTERGEM_INGOT = ITEMS.register("bittergem_ingot",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TEST_TAB)));
+
+    public static final RegistryObject<Item> DOWSING_ROD = ITEMS.register("dowsing_rod",
+            () -> new DowsingRodItem(new Item.Properties().tab(ModCreativeModeTab.TEST_TAB).durability(64)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
