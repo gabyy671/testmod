@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BSB",
+    " S ",
+    "SRS"
+  ],
+  "key": {
+    "B": {
+      "item": "gabytestmod:bittergem_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "gabytestmod:dowsing_rod"
+  }
+}
