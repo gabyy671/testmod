@@ -1,6 +1,7 @@
 package net.gaby.gabytestmod.block;
 
 import net.gaby.gabytestmod.TestMod;
+import net.gaby.gabytestmod.block.custom.SpeedyBlock;
 import net.gaby.gabytestmod.item.ModCreativeModeTab;
 import net.gaby.gabytestmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -32,6 +33,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> BITTERGEM_ORE = registerBlock("bittergem_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.TEST_TAB);
+
+    public static final RegistryObject<Block> SPEEDY_BLOCK = registerBlock("speedy_block",
+            () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.TEST_TAB);
+
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
