@@ -35,7 +35,7 @@ public class ModBlocks {
                     .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.TEST_TAB);
 
     public static final RegistryObject<Block> SPEEDY_BLOCK = registerBlock("speedy_block",
-            () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.TEST_TAB);
 
 
