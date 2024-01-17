@@ -1,6 +1,7 @@
 package net.gaby.gabytestmod.item;
 
 import net.gaby.gabytestmod.TestMod;
+import net.gaby.gabytestmod.item.custom.CoalCokeItem;
 import net.gaby.gabytestmod.item.custom.DowsingRodItem;
 import net.gaby.gabytestmod.item.custom.ModFoods;
 import net.minecraft.world.item.CreativeModeTab;
@@ -34,6 +35,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> DOWSING_ROD = ITEMS.register("dowsing_rod",
             () -> new DowsingRodItem(new Item.Properties().tab(ModCreativeModeTab.TEST_TAB).durability(64)));
+
+    public static final RegistryObject<Item> ENCHANTED_COAL = ITEMS.register("enchanted_coal",
+            () -> new CoalCokeItem(new Item.Properties().tab(ModCreativeModeTab.TEST_TAB)));
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
