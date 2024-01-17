@@ -13,5 +13,8 @@
   "block.gabytestmod.speedy_block": "Speedy block",
   "itemGroup.testtab": "Tab mod",
 
-  "item.gabytestmod.dowsing_rod.no_valuables": "No valuables found"
+  "item.gabytestmod.dowsing_rod.no_valuables": "No valuables found",
+
+  "tooltip.gabytestmod.dawsing_rod.tooltip.shift": "Right click on a block find valuables",
+  "tooltip.gabytestmod.dawsing_rod.tooltip": "Press §eshift§r for more information"
 }

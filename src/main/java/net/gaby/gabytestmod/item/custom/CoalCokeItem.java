@@ -12,6 +12,6 @@ public class CoalCokeItem extends Item {
 
     @Override
     public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {
-        return 1600*7;
+        return (int)(1600*5.5);
     }
 }
