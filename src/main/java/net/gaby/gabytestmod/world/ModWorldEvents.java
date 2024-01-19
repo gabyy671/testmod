@@ -1,6 +1,6 @@
 package net.gaby.gabytestmod.world;
 
-import net.gaby.gabytestmod.world.gen.ModeOreGeneration;
+import net.gaby.gabytestmod.world.gen.ModOreGeneration;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.gaby.gabytestmod.TestMod;
@@ -9,7 +9,7 @@ import net.minecraftforge.event.world.BiomeLoadingEvent;
 public class ModWorldEvents {
     @SubscribeEvent
     public static void biomeLoadingEvent(final BiomeLoadingEvent event){
-        ModeOreGeneration.generateOres(event);
+        ModOreGeneration.generateOres(event);
     }
 
 }

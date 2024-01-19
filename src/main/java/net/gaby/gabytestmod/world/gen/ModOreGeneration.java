@@ -8,7 +8,7 @@ import net.minecraftforge.event.world.BiomeLoadingEvent;
 
 import java.util.List;
 
-public class ModeOreGeneration {
+public class ModOreGeneration {
     public static void generateOres(final BiomeLoadingEvent event){
         List<Holder<PlacedFeature>> base =
                 event.getGeneration().getFeatures(GenerationStep.Decoration.UNDERGROUND_ORES);
