@@ -36,7 +36,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> DEEPSLATE_BITTERGEM_ORE = registerBlock("deepslate_bittergem_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.TEST_TAB);
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TEST_TAB);
 
     public static final RegistryObject<Block> SPEEDY_BLOCK = registerBlock("speedy_block",
             () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.METAL)
